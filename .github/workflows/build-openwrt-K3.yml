@@ -89,7 +89,7 @@ jobs:
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make -j$(nproc) V=s
+        make -j$(nproc)
 
     - name: Check space usage
       if: (!cancelled())
