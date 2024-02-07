@@ -99,7 +99,7 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: OpenWrt
-        path: openwrt/bin/targets/bcm53xx/generic
+        path: openwrt/bin/targets/bcm53xx/generic/openwrt-bcm53xx-generic-phicomm_k3-squashfs.trx
 
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
